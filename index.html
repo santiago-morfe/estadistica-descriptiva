@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>esadistica</title>
+</head>
+
+<body>
+    <div class="container">
+        <input type="number" id="input-number">
+        <button id="btn-agregar">Agregar</button>
+
+
+        <div id="container-lista">
+            <table id="tabla-fercuencias">
+                <tr id="elementos">
+
+                </tr>
+            </table>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th> # </th>
+                    <th>frecuencia</th>
+                    <th> fecuencia acumulada</th>
+                    <th> frecuencia relativa</th>
+                    <th>frecuencia relativa acumulada</th>
+                    <th>frecuencia %</th>
+                    <th>frecuencia % acumulada</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-frecuencias"></tbody>
+
+        </table>
+        <table>
+            <tr>
+                <td>moda: </td>
+                <td id="omega"></td>
+            </tr>
+            <tr>
+                <td>media:</td>
+                <td id="media"></td>
+            </tr>
+            <tr>
+                <td>mediana:</td>
+                <td id="mediana"></td>
+            </tr>
+            <tr>
+                <td>omega:</td>
+                <td id="omega"> </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
